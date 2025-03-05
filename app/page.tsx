@@ -9,21 +9,8 @@ import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 
 export default function Home() {
-  return (
-    // <div className={styles.page}>
-
-    // <div >
-    //   <Header />
-    //   <Carousel />
-    //   <OurBusiness />
-    //   <CoreValues />
-    //   <Services />
-    //   <Contact />
-    //   <Footer />
-    // </div>
-
-
-    <div className={styles['main-a']}>
+  return ( 
+    <div >
       <Header />
       <div id="home">
         <Carousel />
