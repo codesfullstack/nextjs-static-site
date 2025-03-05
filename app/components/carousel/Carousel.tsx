@@ -53,7 +53,7 @@ export default function Carousel() {
         return () => {
             clearInterval(interval);
         };
-    }, []);
+    }, [nextImage]);
 
     return (
         <div className={styles['carousel-container']}>
