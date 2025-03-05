@@ -16,19 +16,6 @@ export default function Contact() {
         message: '',
     });
 
-    const handleChange = (e) => {
-        const { name, value } = e.target;
-        setFormData((prevData) => ({
-            ...prevData,
-            [name]: value,
-        }));
-    };
-
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        console.log('Formulario enviado:', formData);
-    };
-
     return (
         <div className={styles['contact-container']}>
             <div className={styles['upper']}>
@@ -127,7 +114,6 @@ export default function Contact() {
                             <textarea
                                 id="formMessage"
                                 className="form-control"
-                                rows="4"
                                 placeholder="Your message"
                             ></textarea>
                         </div>

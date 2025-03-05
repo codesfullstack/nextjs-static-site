@@ -14,8 +14,8 @@ export default function Header() {
     const handleClickOutside = (event: { target: any }) => {
       if (
         drawerRef.current &&
-        !drawerRef.current.contains(event.target) &&
-        !menuRef.current.contains(event.target)
+        !drawerRef.current.contains(event.target) 
+        // &&  !menuRef.current.contains(event.target)
       ) {
         setOpen(false);
       }
@@ -27,7 +27,7 @@ export default function Header() {
     };
   }, []);
 
-  const scrollToSection = (id) => {
+  const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
     if (element) {
       window.scrollTo({
