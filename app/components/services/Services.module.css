@@ -43,6 +43,8 @@
     /* scale: 1;
     transition: 
         scale 1s ease-in-out; */
+    min-height: 70vh;
+    align-items: center;
 }
 
 /* .service-card:hover{
