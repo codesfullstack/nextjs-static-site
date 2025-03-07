@@ -21,21 +21,7 @@ export default function CoreValues() {
                 <h3 className={styles['vision-title']}>Vision</h3>
                 <p className={styles['vision-text']}>"To be a leading company in providing advisory services to SMEs, recognized for the quality and efficiency of the services offered, with innovative and technological solutions that meet the needs of our clients."</p>
             </div>
-
-            {/* <div className={styles.coreValues}>
-                <img className={styles['img-style']} 
-                    src="https://image.api.playstation.com/vulcan/ap/rnd/202306/1219/60eca3ac155247e21850c7d075d01ebf0f3f5dbf19ccd2a1.jpg" alt="Venom y Spider-Man" />
-                <img className={styles['img-style']} 
-                    src="https://gmedia.playstation.com/is/image/SIEPDC/spider-man-2-screenshot-venom-4k-legal-13jul23?$1600px$" alt="Venom en Marvel's Spider-Man 2" />
-                <img className={styles['img-style']} 
-                    src="https://gmedia.playstation.com/is/image/SIEPDC/spider-man-2-screenshot-story-duo-4k-legal-13jul23?$1600px$" alt="Spider-Man y Miles Morales en Marvel's Spider-Man 2" />
-                <img className={styles['img-style']} 
-                    src="https://image.api.playstation.com/vulcan/ap/rnd/202306/1219/60eca3ac155247e21850c7d075d01ebf0f3f5dbf19ccd2a1.jpg" alt="Venom y Spider-Man" />
-                <img className={styles['img-style']} 
-                    src="https://gmedia.playstation.com/is/image/SIEPDC/spider-man-2-screenshot-venom-4k-legal-13jul23?$1600px$" alt="Venom en Marvel's Spider-Man 2" />
-                <img className={styles['img-style']} 
-                    src="https://gmedia.playstation.com/is/image/SIEPDC/spider-man-2-screenshot-story-duo-4k-legal-13jul23?$1600px$" alt="Spider-Man y Miles Morales en Marvel's Spider-Man 2" />
-            </div> */}
+ 
         </div>
     );
 }
